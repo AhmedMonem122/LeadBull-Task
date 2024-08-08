@@ -1,10 +1,13 @@
 import "./App.css";
 import backgroundVideo from "/Videos/Background-video.mp4";
 import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
+import HugeUpdates from "./components/HugeUpdates/HugeUpdates";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
-    <div className="h-screen relative">
+    <main className="h-full relative after:content-[''] after:fixed after:left-0 after:top-0 after:w-full after:h-full after:bg-blackOverlay after:-z-[1]">
       <video
         src={backgroundVideo}
         autoPlay
@@ -16,10 +19,11 @@ function App() {
         Your browser does not support the video tag.
       </video>
 
-      <div className="fixed top-0 left-0 w-full h-full bg-blackOverlay">
-        <Navbar />
-      </div>
-    </div>
+      <Navbar />
+      <Header />
+      <HugeUpdates />
+      <Profile />
+    </main>
   );
 }
 

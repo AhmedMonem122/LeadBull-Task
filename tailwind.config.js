@@ -17,6 +17,7 @@ export default {
 
     extend: {
       colors: {
+        primary: "#027FCA",
         blackOverlay: "#00000033",
       },
     },
