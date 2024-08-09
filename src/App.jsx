@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import HugeUpdates from "./components/HugeUpdates/HugeUpdates";
 import Profile from "./components/Profile/Profile";
+import OurSolution from "./components/OurSolution/OurSolution";
+import KeyIndicators from "./components/KeyIndicators/KeyIndicators";
+import OverMillion from "./components/OverMillion/OverMillion";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <Header />
       <HugeUpdates />
       <Profile />
+      <OurSolution />
+      <KeyIndicators />
+      <OverMillion />
     </main>
   );
 }

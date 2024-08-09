@@ -1,13 +1,15 @@
 import leadBullLogo from "../../assets/Images/LeadBull Logo.png";
 import { TiThMenu } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
+import { FaCalendarAlt } from "react-icons/fa";
+import { MdLogin } from "react-icons/md";
 import { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="text-white bg-black sticky top-0">
+    <nav className="text-white bg-black sticky top-0 z-50 py-4">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <a href="/" className="w-[80px] md:w-fit">
@@ -34,16 +36,22 @@ const Navbar = () => {
           </ul>
 
           <div className="flex justify-center items-center gap-[21px]">
-            <button className="w-[70px] md:w-[140px] rounded-[16px] border py-[6px] px-[8px] md:py-[12px] md:px-[16px] border-[#FFFFFFD1]">
-              Login
+            <button className="w-[56px] h-[56px] md:w-[140px] md:h-auto rounded-full md:rounded-[16px] border py-[6px] px-[8px] md:py-[12px] md:px-[16px] border-[#FFFFFFD1] flex items-center justify-center">
+              <span className="hidden md:inline">Login</span>
+              <span className="inline md:hidden text-[24px]">
+                <MdLogin />
+              </span>
             </button>
-            <button className="rounded-[16px] border md:py-[12px] py-[6px] px-[8px] md:px-[16px] border-[#FFFFFFD1] bg-[linear-gradient(86.25deg,_#53040B_-5.42%,_#0088D7_127.82%)]">
-              Book an appointment
+            <button className="rounded-full w-[56px] h-[56px] md:w-auto md:h-auto md:rounded-[16px] border md:py-[12px] py-[6px] px-[8px] md:px-[16px] border-[#FFFFFFD1] bg-[linear-gradient(86.25deg,_#53040B_-5.42%,_#0088D7_127.82%)] flex items-center justify-center">
+              <span className="hidden md:inline">Book an appointment</span>
+              <span className="inline md:hidden text-[24px]">
+                <FaCalendarAlt />
+              </span>
             </button>
           </div>
 
           <div
-            className="md:text-[24px] xl:hidden cursor-pointer"
+            className="text-[24px] xl:hidden cursor-pointer"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
