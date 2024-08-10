@@ -40,7 +40,7 @@ const Profile = () => {
               alt="LeadBull Profile Logo"
               className="w-1/2 mx-auto"
             />
-            <p className="bg-[linear-gradient(89.7deg,_#FF0000_-20.95%,_#027FCA_45.26%,_#027FCA_123.29%)] b-span">
+            <p className="bg-[linear-gradient(89.7deg,_#FF0000_-20.95%,_#027FCA_45.26%,_#027FCA_123.29%)] w-fit mx-auto b-span">
               LEADBULL LLC
             </p>
           </div>

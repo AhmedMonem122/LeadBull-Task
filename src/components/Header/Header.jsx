@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="text-white text-center mt-44">
       <div className="container mx-auto">
-        <h1 className="text-[60px] md:text-[123.59px]">
+        <h1 className="text-[60px] md:text-[123.59px] font-[K2D] font-[700]">
           <span className="first-letter:text-[80px] first-letter:md:text-[164.79px]">
             Lead
           </span>
@@ -14,7 +14,7 @@ const Header = () => {
           <span>ULL</span>
         </h1>
 
-        <h2 className="md:text-[32px]">
+        <h2 className="md:text-[32px] font-[Roboto Flex] font-[500]">
           Ultra Targeted Leads & Sales, Let&apos;s Prey
         </h2>
 

@@ -57,7 +57,7 @@ const HugeUpdates = () => {
           <div className="flex items-center justify-between">
             <div className="text-center p-[16px] rounded-[70px] bg-[#2D2D2D4D] w-full">
               <h4 className="font-[600] text-[30px] text-primary">About us</h4>
-              <p className="font-[300] leading-[55px]">
+              <p className="font-[300]">
                 Leadbull stays current with the market trends aiming not only to
                 thrive but also to enhance in such a rapidly evolving digital
                 age, and to keep up its marketing services with the client’s
@@ -81,7 +81,7 @@ const HugeUpdates = () => {
 
           <div className="text-center p-[16px] rounded-[70px] bg-[#2D2D2D4D]">
             <h4 className="font-[600] text-[30px] text-primary">History</h4>
-            <p className="font-[300] leading-[55px]">
+            <p className="font-[300]">
               As the leading company in the marketing industry with a passion
               for innovation and A+ excellence, Leadbull has become a household
               name in the digital sales world, known for its groundbreaking lead

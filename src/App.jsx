@@ -9,6 +9,7 @@ import KeyIndicators from "./components/KeyIndicators/KeyIndicators";
 import OverMillion from "./components/OverMillion/OverMillion";
 import Updates from "./components/Updates/Updates";
 import WilliamJohnson from "./components/WilliamJohnson/WilliamJohnson";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <OverMillion />
       <Updates />
       <WilliamJohnson />
+      <Footer />
     </main>
   );
 }

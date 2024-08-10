@@ -17,26 +17,26 @@ const Navbar = () => {
           </a>
 
           <ul
-            className={`flex flex-col absolute top-full left-0 w-full h-screen bg-black xl:flex-row xl:static xl:h-full xl:w-auto xl:bg-transparent justify-center items-center gap-[36px] -translate-x-full xl:translate-x-0 transition-all ${
+            className={`flex flex-col absolute top-full left-0 w-full h-screen bg-black xl:flex-row xl:static xl:h-full xl:w-auto xl:bg-transparent justify-center items-center gap-[36px] -translate-x-full xl:translate-x-0 transition-all font-[roboto flex] font-[700] ${
               isOpen && "translate-x-0"
             }`}
           >
-            <li className='relative py-[4px] px-[16px] after:content-[""] after:absolute after:left-[0] after:bottom-[0] after:w-full after:h-[4px] after:bg-[linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] text-[24px]'>
+            <li className='relative py-[4px] px-[16px] after:content-[""] after:absolute after:left-[0] after:bottom-[0] after:w-full after:h-[4px] after:bg-[linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] text-[24px] text-red-600'>
               <a href="">Home</a>
             </li>
-            <li className="py-[4px] px-[16px] border-b-4 [border-image-source:linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] text-[24px]">
+            <li className='relative py-[4px] px-[16px] after:content-[""] after:absolute after:left-[0] after:bottom-[0] after:w-0 after:h-[4px] after:bg-[linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] after:transition-all hover:after:w-full text-[24px] hover:text-red-600 transition-all'>
               <a href="">About us</a>
             </li>
-            <li className="py-[4px] px-[16px] border-b-4 [border-image-source:linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] text-[24px]">
+            <li className='relative py-[4px] px-[16px] after:content-[""] after:absolute after:left-[0] after:bottom-[0] after:w-0 after:h-[4px] after:bg-[linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] after:transition-all hover:after:w-full text-[24px] hover:text-red-600 transition-all'>
               <a href="">Services</a>
             </li>
-            <li className="py-[4px] px-[16px] border-b-4 [border-image-source:linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] text-[24px]">
+            <li className='relative py-[4px] px-[16px] after:content-[""] after:absolute after:left-[0] after:bottom-[0] after:w-0 after:h-[4px] after:bg-[linear-gradient(86.48deg,_#B10028_-5.25%,_#027FCA_98.16%)] after:transition-all hover:after:w-full text-[24px] hover:text-red-600 transition-all'>
               <a href="">Support</a>
             </li>
           </ul>
 
-          <div className="flex justify-center items-center gap-[21px]">
-            <button className="w-[56px] h-[56px] md:w-[140px] md:h-auto rounded-full md:rounded-[16px] border py-[6px] px-[8px] md:py-[12px] md:px-[16px] border-[#FFFFFFD1] flex items-center justify-center">
+          <div className="flex justify-center items-center gap-[21px] font-[Roboto Flex] font-[600]">
+            <button className="w-[56px] h-[56px] md:w-[140px] md:h-auto rounded-full md:rounded-[16px] border py-[6px] px-[8px] md:py-[12px] md:px-[16px] border-[#FFFFFFD1] flex items-center justify-center hover:bg-[linear-gradient(86.25deg,_#53040B_-5.42%,_#0088D7_127.82%)] transition-all">
               <span className="hidden md:inline">Login</span>
               <span className="inline md:hidden text-[24px]">
                 <MdLogin />
