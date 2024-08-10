@@ -7,6 +7,8 @@ import Profile from "./components/Profile/Profile";
 import OurSolution from "./components/OurSolution/OurSolution";
 import KeyIndicators from "./components/KeyIndicators/KeyIndicators";
 import OverMillion from "./components/OverMillion/OverMillion";
+import Updates from "./components/Updates/Updates";
+import WilliamJohnson from "./components/WilliamJohnson/WilliamJohnson";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <OurSolution />
       <KeyIndicators />
       <OverMillion />
+      <Updates />
+      <WilliamJohnson />
     </main>
   );
 }
