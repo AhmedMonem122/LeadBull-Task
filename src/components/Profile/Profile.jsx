@@ -2,7 +2,7 @@ import profileImage from "../../assets/Images/LeadBull header.png";
 
 const Profile = () => {
   return (
-    <section className="my-10">
+    <section className="">
       <div className="container mx-auto">
         <h3 className="text-center font-[Inter] font-bold text-[20px] md:text-[32px] lg:text-[64px] text-primary">
           PROFILE

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  section {
+    @apply py-10;
+  }
+}
+
+@layer components {
+  .clip-path-section {
+    @apply relative  after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[linear-gradient(99.22deg,_rgba(255,_0,_0,_0.12)_1.27%,_rgba(0,_181,_208,_0.12)_92.23%)] after:[clip-path:polygon(0_41%,_100%_0%,_100%_100%,_0_100%)];
+  }
+}

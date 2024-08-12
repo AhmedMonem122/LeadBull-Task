@@ -1,6 +1,6 @@
 const OurSolution = () => {
   return (
-    <section className="text-white">
+    <section className="text-white clip-path-section">
       <div className="container mx-auto">
         <h3 className="text-center font-[Inter] font-bold text-[20px] md:text-[32px] lg:text-[64px] text-primary">
           OUR SOLUTION APPROACH

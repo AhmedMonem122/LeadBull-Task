@@ -1,6 +1,6 @@
 const Updates = () => {
   return (
-    <section className="text-white">
+    <section className="text-white clip-path-section">
       <div className="container mx-auto">
         <div className="flex items-center justify-between flex-col lg:flex-row gap-5">
           <div>
